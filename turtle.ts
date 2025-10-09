@@ -49,7 +49,7 @@ namespace turtle {
      * Moves the turtle for the given amount of pixels
      * @param steps number of steps, eg: 1
      */
-    //% blockId=turtleForward block="forward %steps|steps"
+    //% blockId=turtleForward block="avancer %steps|steps"
     //% weight=99 blockGap=8
     export function forward(steps: number): void {
         init();
@@ -72,7 +72,7 @@ namespace turtle {
      * Moves back by the given number of steps
      * @param steps number of steps to move, eg: 1
      */
-    //% blockId=turtleBack block="back %steps|steps"
+    //% blockId=turtleBack block="reculer %steps|steps"
     //% weight=98 blockGap=8
     export function back(steps: number): void {
         forward(-steps);

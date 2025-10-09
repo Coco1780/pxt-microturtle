@@ -134,7 +134,7 @@ namespace turtle {
      * Moves the turtle to the center of the screen 
      */
     //% blockGap=8
-    //% blockId=turtleHome block="maison"
+    //% blockId=turtleHome block="retour à la maison"
     export function home(): void {
         setPosition(2, 2);
         _direction = 3;

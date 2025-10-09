@@ -8,7 +8,8 @@
     "files": [
         "turtle.ts",
         "README.md",
-        "turtle-square.md"
+        "turtle-square.md",
+        "_locales/fr/turtle-square.md"
     ],
     "testFiles": [
         "tests.ts"

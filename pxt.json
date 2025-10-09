@@ -8,8 +8,7 @@
     "files": [
         "turtle.ts",
         "README.md",
-        "turtle-square.md",
-        "tutorial-info-cache.json"
+        "turtle-square.md"
     ],
     "testFiles": [
         "tests.ts"

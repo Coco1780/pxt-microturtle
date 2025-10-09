@@ -69,5 +69,5 @@ input.onButtonPressed(Button.A, function() {
 ```
 
 ```package
-microturtle=github:Coco1780/pxt-microturtle
+tortue=github:Coco1780/pxt-microturtle
 ```

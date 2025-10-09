@@ -2,11 +2,11 @@
 
 ## Introduction @unplugged
 
-Imagine qu'il y a une tortue virtuelle, représentée par une LED, et que tu peux contrôler avec des commandes. Dans ce tutoriel, nous allons apprendre à utiliser la tortue et dessiner un carré.
+Imagine qu'il y a une tortue virtuelle, représentée par une LED, et que tu peux contrôler avec des blocs. Dans ce tutoriel, nous allons apprendre à utiliser la tortue et dessiner un carré.
 
 ## Déplacer la tortue
 
-La tortue démarre au centre de l'écran et regarde vers le haut. Place un bloc ``||turtle:forward||`` pour la déplacer vers le haut.
+La tortue démarre au centre de l'écran et regarde vers le haut. Place un bloc ``||turtle:avancer||`` pour la déplacer vers le haut.
 
 ```blocks
 turtle.forward(1)

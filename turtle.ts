@@ -122,7 +122,7 @@ namespace turtle {
      * Puts the pen down or up
      */
     //% blockGap=8
-    //% blockId=turtlePen block="crayon %mode"
+    //% blockId=turtlePen block="stylo %mode"
     //% weight=65
     export function pen(mode: TurtlePenMode): void {
         init();

@@ -1,7 +1,7 @@
 enum TurtlePenMode {
-    //% block="down"
+    //% block="haut"
     Down,
-    //% block="up"
+    //% block="bas"
     Up
 }
 /**

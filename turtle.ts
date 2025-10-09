@@ -86,7 +86,7 @@ namespace turtle {
     /**
      * Turns left by 90 degrees
      */
-    //% blockId=turtleTurnLeft block="turn left"
+    //% blockId=turtleTurnLeft block="tourner à gauche"
     //% weight=89 blockGap=8
     export function turnLeft(): void {
         turn(-1);
@@ -95,7 +95,7 @@ namespace turtle {
     /**
      * Turns right by 90 degrees
      */
-    //% blockId=turtleTurnRight block="turn right"
+    //% blockId=turtleTurnRight block="tourner à droite"
     //% weight=88 blockGap=8
     export function turnRight(): void {
         turn(1);
@@ -103,13 +103,13 @@ namespace turtle {
 
 
     /**
-     * Sets the turtle position
+     * Défini la position de la tortue
      * @param x the horizontal position from 0 (left) to 4 (right), eg: 2
      * @param y the vertical position from 0 (top) to 4 (bottom), eg: 2
      */
     //% x.min=0 x.max=4
     //% y.min=0 y.max=4
-    //% blockId=turtleSetPosition block="set position x: %x|y: %y"
+    //% blockId=turtleSetPosition block="Définir la position x: %x|y: %y"
     //% weight=87
     export function setPosition(x: number, y: number): void {
         init();
@@ -122,7 +122,7 @@ namespace turtle {
      * Puts the pen down or up
      */
     //% blockGap=8
-    //% blockId=turtlePen block="pen %mode"
+    //% blockId=turtlePen block="crayon %mode"
     //% weight=65
     export function pen(mode: TurtlePenMode): void {
         init();
@@ -134,7 +134,7 @@ namespace turtle {
      * Moves the turtle to the center of the screen 
      */
     //% blockGap=8
-    //% blockId=turtleHome block="home"
+    //% blockId=turtleHome block="maison"
     export function home(): void {
         setPosition(2, 2);
         _direction = 3;
@@ -146,7 +146,7 @@ namespace turtle {
      */
     //% blockGap=8
     //% brightness.min=0 brightness.max=255
-    //% blockId=turtleSetBrightness block="set brightess %brightness"
+    //% blockId=turtleSetBrightness block="Définir la luminosité %brightness"
     export function setBrightness(brightness: number): void {
         init();
         _brightness = Math.max(0, Math.min(255, brightness));
@@ -158,7 +158,7 @@ namespace turtle {
      * @param stepsPerSecond steps per second, eg: 25
      */
     //% blockGap=8
-    //% blockId=turtleSetSpeed block="set speed %speed"
+    //% blockId=turtleSetSpeed block="Définir la vitesse %speed"
     //% stepsPerSecond.min=1 stepsPerSecond.max=50
     //% weight=10
     export function setSpeed(stepsPerSecond: number): void {

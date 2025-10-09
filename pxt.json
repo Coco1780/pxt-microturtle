@@ -9,7 +9,8 @@
         "turtle.ts",
         "README.md",
         "turtle-square.md",
-        "_locales/fr/turtle-square.md"
+        "_locales/fr/turtle-square.md",
+        "tutorial-info-cache.json"
     ],
     "testFiles": [
         "tests.ts"

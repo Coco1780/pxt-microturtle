@@ -1,12 +1,12 @@
-# Turtle Square
+# Le carré de la tortue
 
 ## Introduction @unplugged
 
-Imagine that there's a virtual turtle, as small as an LED, that you can control with commands. In this tutorial, you will learn to use the turtle and draw a square.
+Image qu'il y a une tortue virtuelle, représentée par une LED, et que tu peux contrôler avec des commandes. Dans ce tutoriel, nous allons apprendre à utiliser la tortue et dessiner un carré.
 
-## Moving the turtle
+## Déplacer la tortue
 
-The turtle starts in the center of the screen heading upward. Place a ``||turtle:forward||`` block to make it move up.
+La torrtue démarre au centre de l'écran et regarde vers le haut. Place un bloc ``||turtle:forward||`` pour la déplacer vers le haut.
 
 ```blocks
 turtle.forward(1)
@@ -69,5 +69,5 @@ input.onButtonPressed(Button.A, function() {
 ```
 
 ```package
-microturtle=github:Microsoft/pxt-microturtle#v0.0.9
+microturtle=github:Coco1780/pxt-microturtle#master
 ```

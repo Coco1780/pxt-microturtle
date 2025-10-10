@@ -68,6 +68,3 @@ input.onButtonPressed(Button.A, function() {
 })
 ```
 
-```package
-tortue=github:Coco1780/pxt-microturtle#master
-```

@@ -12,7 +12,7 @@ La tortue démarre au centre de l'écran et regarde vers le haut. Place un bloc 
 turtle.forward(1)
 ```
 
-## Turning and moving
+## Tourner et se déplacer
 
 Place un bloc ``||turtle:tourner à droite||`` pour tourner la tortue et place un autre bloc ``||turtle:avancer||`` pour qu'elle bouge de nouveau.
 

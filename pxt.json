@@ -1,6 +1,6 @@
 {
     "name": "tortue",
-    "version": "0.0.7",
+    "version": "0.1.0",
     "description": "A LOGO-like turtle library",
     "dependencies": {
         "core": "*"
